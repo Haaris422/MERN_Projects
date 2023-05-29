@@ -1,0 +1,43 @@
+var mongoose = require('mongoose');
+var auxSchema = new mongoose.Schema ({
+    enNo:{
+        type:String
+    },
+    fName:{
+        type:String
+    },
+    feeSlip1:{
+        type:String
+    },
+    feeSlip2:{
+        type:String
+    },
+    feeSlip3:{
+        type:String
+    },
+    feeSlip4:{
+        type:String
+    },
+    feeSlip5:{
+        type:String
+    },
+    feeSlip6:{
+        type:String
+    },
+    feeSlip7:{
+        type:String
+    },
+    feeSlip8:{
+        type:String
+    },
+    libCard:{
+        type:Boolean
+    },
+    idCard:{
+        type:Boolean
+    },
+    latE:{
+        type:Boolean
+    },
+})
+module.exports = mongoose.model('Aux', auxSchema)
